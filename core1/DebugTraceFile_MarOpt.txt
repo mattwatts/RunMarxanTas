@@ -1,7 +1,7 @@
 Marxan v 2.43 begin execution
 
 LoadOptions
-RandSeed iseed 13675 RandSeed1 -13675
+RandSeed iseed 65706 RandSeed1 -65706
 before LoadPUData
 after LoadPUData
 prob field not present
@@ -52,53 +52,53 @@ after OutputScenario
 before CalcPenaltiesOptimise
 CalcPenaltiesOptimise start
 CalcPenaltiesOptimise spname 25
-CalcPenaltiesOptimise spname 25 penalty 1.90853e+09
+CalcPenaltiesOptimise spname 25 penalty 4.57501e+09
 CalcPenaltiesOptimise spname 24
-CalcPenaltiesOptimise spname 24 penalty 1.46803e+10
+CalcPenaltiesOptimise spname 24 penalty 2.85931e+10
 CalcPenaltiesOptimise spname 23
-CalcPenaltiesOptimise spname 23 penalty 1.77231e+09
+CalcPenaltiesOptimise spname 23 penalty 3.23649e+09
 CalcPenaltiesOptimise spname 22
-CalcPenaltiesOptimise spname 22 penalty 7.56663e+09
+CalcPenaltiesOptimise spname 22 penalty 1.63112e+10
 CalcPenaltiesOptimise spname 21
-CalcPenaltiesOptimise spname 21 penalty 8.58534e+08
+CalcPenaltiesOptimise spname 21 penalty 1.92236e+09
 CalcPenaltiesOptimise spname 20
-CalcPenaltiesOptimise spname 20 penalty 2.48106e+09
+CalcPenaltiesOptimise spname 20 penalty 5.57064e+09
 CalcPenaltiesOptimise spname 19
-CalcPenaltiesOptimise spname 19 penalty 1.75978e+09
+CalcPenaltiesOptimise spname 19 penalty 3.72967e+09
 CalcPenaltiesOptimise spname 18
-CalcPenaltiesOptimise spname 18 penalty 2.70491e+07
+CalcPenaltiesOptimise spname 18 penalty 7.85786e+07
 CalcPenaltiesOptimise spname 17
-CalcPenaltiesOptimise spname 17 penalty 1.15143e+08
+CalcPenaltiesOptimise spname 17 penalty 2.74852e+08
 CalcPenaltiesOptimise spname 16
-CalcPenaltiesOptimise spname 16 penalty 1.36716e+10
+CalcPenaltiesOptimise spname 16 penalty 2.57476e+10
 CalcPenaltiesOptimise spname 15
-CalcPenaltiesOptimise spname 15 penalty 1.24227e+09
+CalcPenaltiesOptimise spname 15 penalty 2.8756e+09
 CalcPenaltiesOptimise spname 14
-CalcPenaltiesOptimise spname 14 penalty 3.68712e+08
+CalcPenaltiesOptimise spname 14 penalty 8.70489e+08
 CalcPenaltiesOptimise spname 13
-CalcPenaltiesOptimise spname 13 penalty 2.90202e+09
+CalcPenaltiesOptimise spname 13 penalty 4.8249e+09
 CalcPenaltiesOptimise spname 12
-CalcPenaltiesOptimise spname 12 penalty 2.11297e+09
+CalcPenaltiesOptimise spname 12 penalty 3.54397e+09
 CalcPenaltiesOptimise spname 11
-CalcPenaltiesOptimise spname 11 penalty 6.89385e+09
+CalcPenaltiesOptimise spname 11 penalty 1.1306e+10
 CalcPenaltiesOptimise spname 10
-CalcPenaltiesOptimise spname 10 penalty 2.39554e+09
+CalcPenaltiesOptimise spname 10 penalty 4.14167e+09
 CalcPenaltiesOptimise spname 9
-CalcPenaltiesOptimise spname 9 penalty 1.00437e+09
+CalcPenaltiesOptimise spname 9 penalty 2.22257e+09
 CalcPenaltiesOptimise spname 8
 CalcPenaltiesOptimise spname 7
-CalcPenaltiesOptimise spname 7 penalty 6.93626e+09
+CalcPenaltiesOptimise spname 7 penalty 1.13668e+10
 CalcPenaltiesOptimise spname 6
 CalcPenaltiesOptimise spname 5
-CalcPenaltiesOptimise spname 5 penalty 2.38413e+09
+CalcPenaltiesOptimise spname 5 penalty 4.08213e+09
 CalcPenaltiesOptimise spname 4
-CalcPenaltiesOptimise spname 4 penalty 4.78096e+08
+CalcPenaltiesOptimise spname 4 penalty 1.04305e+09
 CalcPenaltiesOptimise spname 3
-CalcPenaltiesOptimise spname 3 penalty 8.26846e+08
+CalcPenaltiesOptimise spname 3 penalty 1.91004e+09
 CalcPenaltiesOptimise spname 2
-CalcPenaltiesOptimise spname 2 penalty 9.15299e+08
+CalcPenaltiesOptimise spname 2 penalty 2.06065e+09
 CalcPenaltiesOptimise spname 1
-CalcPenaltiesOptimise spname 1 penalty 4.61124e+08
+CalcPenaltiesOptimise spname 1 penalty 1.02512e+09
 CalcPenaltiesOptimise end
 after CalcPenaltiesOptimise
 start run loop run 0
@@ -302,7 +302,7 @@ before file output run 10
 after file output run 10
 end run 10
 before final file output
-Best solution is run 1
+Best solution is run 4
 end final file output
 
 Marxan end execution

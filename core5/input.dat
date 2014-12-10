@@ -5,9 +5,9 @@ created by Apropos Information Systems Inc.
 
 General Parameters
 VERSION 0.1
-BLM 100
+BLM 1000
 PROP 0.5
-RANDSEED 73836
+RANDSEED 31120
 BESTSCORE -1
 NUMREPS 10
 

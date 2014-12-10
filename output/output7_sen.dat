@@ -1,7 +1,7 @@
 Number of Planning Units 1145
 Number of Conservation Values 25
 Starting proportion 0.50
-Connection modifier 100.00
+Connection modifier 1000.00
 
 Clumping - default step function
 Algorithm Used :Annealing and Iterative Improvement
@@ -15,5 +15,5 @@ Cost Threshold Disabled
 Threshold penalty factor A N/A
 Threshold penalty factor B N/A
 
-Random Seed 45422
+Random Seed 99399
 Number of runs 10
