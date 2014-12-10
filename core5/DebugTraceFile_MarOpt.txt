@@ -1,0 +1,308 @@
+Marxan v 2.43 begin execution
+
+LoadOptions
+RandSeed iseed 73836 RandSeed1 -73836
+before LoadPUData
+after LoadPUData
+prob field not present
+before LoadSpeciesData
+after LoadSpeciesData
+before build search arrays
+after build search arrays
+before ReadConnections
+after ReadConnections
+before LoadSparseMatrix
+after LoadSparseMatrix
+Prob2D is off
+before LoadSparseMatrix_sporder
+after LoadSparseMatrix_sporder
+before process block definitions
+after process block definitions
+before CalcTotalAreas
+after CalcTotalAreas
+before ApplySpecProp
+ApplySpecProp spname 25 target 5482341534.040006
+ApplySpecProp spname 24 target 28046978107.899818
+ApplySpecProp spname 23 target 2348993483.112576
+ApplySpecProp spname 22 target 16921536531.488951
+ApplySpecProp spname 21 target 2211255901.335674
+ApplySpecProp spname 20 target 4060630482.754071
+ApplySpecProp spname 19 target 3572276779.011707
+ApplySpecProp spname 18 target 29962095.938975
+ApplySpecProp spname 17 target 191115344.410160
+ApplySpecProp spname 16 target 26801703402.514065
+ApplySpecProp spname 15 target 2378703547.671384
+ApplySpecProp spname 14 target 589388305.364250
+ApplySpecProp spname 13 target 531788900.982630
+ApplySpecProp spname 12 target 541919697.265620
+ApplySpecProp spname 11 target 1015495584.187755
+ApplySpecProp spname 10 target 551661937.579320
+ApplySpecProp spname 9 target 1191423147.546900
+ApplySpecProp spname 8 target 1289643311.160406
+ApplySpecProp spname 7 target 2171242637.422111
+ApplySpecProp spname 6 target 2343689936.523930
+ApplySpecProp spname 5 target 1507276552.211417
+ApplySpecProp spname 4 target 537709988.218270
+ApplySpecProp spname 3 target 1382677638.744610
+ApplySpecProp spname 2 target 961616721.645475
+ApplySpecProp spname 1 target 590592147.143080
+after ApplySpecProp
+before OutputScenario
+after OutputScenario
+before CalcPenaltiesOptimise
+CalcPenaltiesOptimise start
+CalcPenaltiesOptimise spname 25
+CalcPenaltiesOptimise spname 25 penalty 1.90853e+09
+CalcPenaltiesOptimise spname 24
+CalcPenaltiesOptimise spname 24 penalty 1.46803e+10
+CalcPenaltiesOptimise spname 23
+CalcPenaltiesOptimise spname 23 penalty 1.77231e+09
+CalcPenaltiesOptimise spname 22
+CalcPenaltiesOptimise spname 22 penalty 7.56663e+09
+CalcPenaltiesOptimise spname 21
+CalcPenaltiesOptimise spname 21 penalty 8.58534e+08
+CalcPenaltiesOptimise spname 20
+CalcPenaltiesOptimise spname 20 penalty 2.48106e+09
+CalcPenaltiesOptimise spname 19
+CalcPenaltiesOptimise spname 19 penalty 1.75978e+09
+CalcPenaltiesOptimise spname 18
+CalcPenaltiesOptimise spname 18 penalty 2.70491e+07
+CalcPenaltiesOptimise spname 17
+CalcPenaltiesOptimise spname 17 penalty 1.15143e+08
+CalcPenaltiesOptimise spname 16
+CalcPenaltiesOptimise spname 16 penalty 1.36716e+10
+CalcPenaltiesOptimise spname 15
+CalcPenaltiesOptimise spname 15 penalty 1.24227e+09
+CalcPenaltiesOptimise spname 14
+CalcPenaltiesOptimise spname 14 penalty 3.68712e+08
+CalcPenaltiesOptimise spname 13
+CalcPenaltiesOptimise spname 13 penalty 2.90202e+09
+CalcPenaltiesOptimise spname 12
+CalcPenaltiesOptimise spname 12 penalty 2.11297e+09
+CalcPenaltiesOptimise spname 11
+CalcPenaltiesOptimise spname 11 penalty 6.89385e+09
+CalcPenaltiesOptimise spname 10
+CalcPenaltiesOptimise spname 10 penalty 2.39554e+09
+CalcPenaltiesOptimise spname 9
+CalcPenaltiesOptimise spname 9 penalty 1.00437e+09
+CalcPenaltiesOptimise spname 8
+CalcPenaltiesOptimise spname 7
+CalcPenaltiesOptimise spname 7 penalty 6.93626e+09
+CalcPenaltiesOptimise spname 6
+CalcPenaltiesOptimise spname 5
+CalcPenaltiesOptimise spname 5 penalty 2.38413e+09
+CalcPenaltiesOptimise spname 4
+CalcPenaltiesOptimise spname 4 penalty 4.78096e+08
+CalcPenaltiesOptimise spname 3
+CalcPenaltiesOptimise spname 3 penalty 8.26846e+08
+CalcPenaltiesOptimise spname 2
+CalcPenaltiesOptimise spname 2 penalty 9.15299e+08
+CalcPenaltiesOptimise spname 1
+CalcPenaltiesOptimise spname 1 penalty 4.61124e+08
+CalcPenaltiesOptimise end
+after CalcPenaltiesOptimise
+start run loop run 0
+before ConnollyInit run 1
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 1
+before ReserveCost run 1
+after ReserveCost run 1
+before ThermalAnnealing run 1
+ThermalAnnealing start iterations 1000000
+after ThermalAnnealing run 1
+before IterativeImprovementOptimise run 1
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 869
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 1
+before file output run 1
+after file output run 1
+end run 1
+start run loop run 0
+before ConnollyInit run 2
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 2
+before ReserveCost run 2
+after ReserveCost run 2
+before ThermalAnnealing run 2
+ThermalAnnealing start iterations 1000000
+after ThermalAnnealing run 2
+before IterativeImprovementOptimise run 2
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 869
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 2
+before file output run 2
+after file output run 2
+end run 2
+start run loop run 0
+before ConnollyInit run 3
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 3
+before ReserveCost run 3
+after ReserveCost run 3
+before ThermalAnnealing run 3
+ThermalAnnealing start iterations 1000000
+after ThermalAnnealing run 3
+before IterativeImprovementOptimise run 3
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 869
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 3
+before file output run 3
+after file output run 3
+end run 3
+start run loop run 0
+before ConnollyInit run 4
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 4
+before ReserveCost run 4
+after ReserveCost run 4
+before ThermalAnnealing run 4
+ThermalAnnealing start iterations 1000000
+after ThermalAnnealing run 4
+before IterativeImprovementOptimise run 4
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 869
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 4
+before file output run 4
+after file output run 4
+end run 4
+start run loop run 0
+before ConnollyInit run 5
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 5
+before ReserveCost run 5
+after ReserveCost run 5
+before ThermalAnnealing run 5
+ThermalAnnealing start iterations 1000000
+after ThermalAnnealing run 5
+before IterativeImprovementOptimise run 5
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 869
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 5
+before file output run 5
+after file output run 5
+end run 5
+start run loop run 0
+before ConnollyInit run 6
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 6
+before ReserveCost run 6
+after ReserveCost run 6
+before ThermalAnnealing run 6
+ThermalAnnealing start iterations 1000000
+after ThermalAnnealing run 6
+before IterativeImprovementOptimise run 6
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 869
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 6
+before file output run 6
+after file output run 6
+end run 6
+start run loop run 0
+before ConnollyInit run 7
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 7
+before ReserveCost run 7
+after ReserveCost run 7
+before ThermalAnnealing run 7
+ThermalAnnealing start iterations 1000000
+after ThermalAnnealing run 7
+before IterativeImprovementOptimise run 7
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 869
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 7
+before file output run 7
+after file output run 7
+end run 7
+start run loop run 0
+before ConnollyInit run 8
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 8
+before ReserveCost run 8
+after ReserveCost run 8
+before ThermalAnnealing run 8
+ThermalAnnealing start iterations 1000000
+after ThermalAnnealing run 8
+before IterativeImprovementOptimise run 8
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 869
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 8
+before file output run 8
+after file output run 8
+end run 8
+start run loop run 0
+before ConnollyInit run 9
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 9
+before ReserveCost run 9
+after ReserveCost run 9
+before ThermalAnnealing run 9
+ThermalAnnealing start iterations 1000000
+after ThermalAnnealing run 9
+before IterativeImprovementOptimise run 9
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 869
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 9
+before file output run 9
+after file output run 9
+end run 9
+start run loop run 0
+before ConnollyInit run 10
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 10
+before ReserveCost run 10
+after ReserveCost run 10
+before ThermalAnnealing run 10
+ThermalAnnealing start iterations 1000000
+after ThermalAnnealing run 10
+before IterativeImprovementOptimise run 10
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 869
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 10
+before file output run 10
+after file output run 10
+end run 10
+before final file output
+Best solution is run 4
+end final file output
+
+Marxan end execution
