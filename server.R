@@ -1,4 +1,6 @@
-# GitHub RunMarxanTas
+# Author: Matt Watts
+# Date: 10 Dec 2014
+# Purpose: RunMarxanTas web app server.R
 
 require(shiny)
 require(sp)
@@ -460,8 +462,8 @@ shinyServer(function(input, output, session) {
 
         if (input$map == "runMmap")
         {
-                    solnX_table <- read.csv(GenerateSolnFilename(input$m,sMarxanDir))
-                    values <- sqldf(paste("SELECT SOLUTION from solnX_table",sep="")) + 1
+            solnX_table <- read.csv(GenerateSolnFilename(input$m,sMarxanDir))
+            values <- sqldf(paste("SELECT SOLUTION from solnX_table",sep="")) + 1
             greenramp <- colorRampPalette(c("white","green"))(2)
             colours <- rep(greenramp[1],nrow(values))
             for (j in 1:nrow(values))

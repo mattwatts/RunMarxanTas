@@ -1,4 +1,6 @@
-# GitHub RunMarxanTas
+# Author: Matt Watts
+# Date: 10 Dec 2014
+# Purpose: RunMarxanTas web app global.R
 
 library(shiny)
 library(PBSmapping)
